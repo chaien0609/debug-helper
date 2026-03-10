@@ -10,30 +10,13 @@ Record a browsing session — every click, input, scroll, console error, and net
 
 ## Screenshots
 
-### Popup
-Quick access to start/stop recording, take screenshots, and export sessions.
+| Popup | Live Feed | Session History |
+|:---:|:---:|:---:|
+| <img src="images/popup-ui.jpg" width="250"> | <img src="images/live-feed.jpg" width="250"> | <img src="images/session-history.jpg" width="250"> |
 
-![Popup UI](images/popup-ui.jpg)
-
-### Live Feed
-Real-time event stream showing DOM interactions, network requests, and console output as they happen.
-
-![Live Feed](images/live-feed.jpg)
-
-### Session History
-Browse and manage all recorded sessions with view, export, rename, and delete actions.
-
-![Session History](images/session-history.jpg)
-
-### Export Preview
-Preview and copy the generated debug report in Markdown, JSON, or TOON format.
-
-![Export Preview](images/export-preview.jpg)
-
-### Screenshot Annotator
-Annotate captured screenshots with rectangles, arrows, text, counters, freehand drawing, and crop.
-
-![Screenshot Annotator](images/screenshot-annotator.jpg)
+| Export Preview | Screenshot Annotator |
+|:---:|:---:|
+| <img src="images/export-preview.jpg" width="350"> | <img src="images/screenshot-annotator.jpg" width="350"> |
 
 ## Install
 
