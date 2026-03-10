@@ -8,7 +8,45 @@ Chrome extension that captures browser debug context (DOM events, console logs, 
 
 Record a browsing session — every click, input, scroll, console error, and network request gets captured with timestamps. Take annotated screenshots along the way. Add manual notes. Export everything as a structured report that AI coding assistants can read and act on.
 
+## Screenshots
+
+### Popup
+Quick access to start/stop recording, take screenshots, and export sessions.
+
+![Popup UI](images/popup-ui.jpg)
+
+### Live Feed
+Real-time event stream showing DOM interactions, network requests, and console output as they happen.
+
+![Live Feed](images/live-feed.jpg)
+
+### Session History
+Browse and manage all recorded sessions with view, export, rename, and delete actions.
+
+![Session History](images/session-history.jpg)
+
+### Export Preview
+Preview and copy the generated debug report in Markdown, JSON, or TOON format.
+
+![Export Preview](images/export-preview.jpg)
+
+### Screenshot Annotator
+Annotate captured screenshots with rectangles, arrows, text, counters, freehand drawing, and crop.
+
+![Screenshot Annotator](images/screenshot-annotator.jpg)
+
 ## Install
+
+### Option 1: Download release (recommended)
+
+1. Download the [latest release](https://github.com/vibery-studio/debug-helper/releases/tag/latest) ZIP
+2. Unzip the file
+3. Open `chrome://extensions`
+4. Enable **Developer mode**
+5. Click **Load unpacked** → select the unzipped folder
+6. Pin the extension for quick access
+
+### Option 2: Clone repo
 
 1. Clone this repo
 2. Open `chrome://extensions`
