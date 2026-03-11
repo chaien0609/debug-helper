@@ -22,6 +22,7 @@ jobs:
         run: |
           zip -r debug-helper-${{ steps.version.outputs.version }}.zip . \
             -x '.git/*' '.github/*' 'images/*.png' 'debug-report-*.json'
+          cp debug-helper-${{ steps.version.outputs.version }}.zip debug-helper-latest.zip
 
       - name: Create versioned release
         uses: softprops/action-gh-release@v2
@@ -39,6 +40,6 @@ jobs:
             Always points to the most recent release: **${{ steps.version.outputs.version }}**
 
             Download the ZIP below, unzip, and load as unpacked extension in Chrome.
-          files: debug-helper-${{ steps.version.outputs.version }}.zip
+          files: debug-helper-latest.zip
           prerelease: true
           make_latest: false

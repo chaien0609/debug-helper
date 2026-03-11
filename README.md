@@ -22,7 +22,7 @@ Record a browsing session — every click, input, scroll, console error, and net
 
 ### Option 1: Download release (recommended)
 
-1. Download the [latest release](https://github.com/vibery-studio/debug-helper/releases/tag/latest) ZIP
+1. Download [`debug-helper-latest.zip`](https://github.com/vibery-studio/debug-helper/releases/download/latest/debug-helper-latest.zip)
 2. Unzip the file
 3. Open `chrome://extensions`
 4. Enable **Developer mode**
